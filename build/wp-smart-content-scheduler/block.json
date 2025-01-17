@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "wp-smart-content-scheduler/scheduler-block",
+  "version": "1.0.0",
+  "title": "Smart Content Scheduler",
+  "category": "design",
+  "icon": "calendar-alt",
+  "description": "A Gutenberg block to schedule content visibility based on specific dates and times.",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "textdomain": "wp-smart-content-scheduler",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}
