@@ -1,55 +1,48 @@
-=== Wp Smart Content Scheduler ===
-Contributors:      The WordPress Contributors
-Tags:              block
-Tested up to:      6.7
-Stable tag:        0.1.0
-License:           GPL-2.0-or-later
-License URI:       https://www.gnu.org/licenses/gpl-2.0.html
+=== WP Smart Content Scheduler ===
+Contributors:      Jonathan Stalnaker  
+Tags:              block, Gutenberg, scheduler, content visibility  
+Tested up to:      6.7  
+Stable tag:        1.0.0  
+License:           GPL-2.0-or-later  
+License URI:       https://www.gnu.org/licenses/gpl-2.0.html  
 
-Example block scaffolded with Create Block tool.
+A custom Gutenberg block to schedule content visibility based on start and end dates.
 
 == Description ==
 
-This is the long description. No limit, and you can use Markdown (as well as in the following sections).
+The **WP Smart Content Scheduler** plugin allows users to dynamically schedule content visibility directly from the WordPress block editor. 
 
-For backwards compatibility, if this section is missing, the full length of the short description will be used, and
-Markdown parsed.
+Key Features:
+- Set start and end dates for when content should appear or disappear.
+- Dynamic visibility toggling using front-end JavaScript.
+- Fully integrated with Gutenberg, using WordPress best practices.
+- Modern SCSS/BEM styling for maintainable and readable code.
+
+This plugin is designed for developers and end-users looking for precise control over content visibility.
 
 == Installation ==
 
-This section describes how to install the plugin and get it working.
-
-e.g.
-
-1. Upload the plugin files to the `/wp-content/plugins/wp-smart-content-scheduler` directory, or install the plugin through the WordPress plugins screen directly.
-1. Activate the plugin through the 'Plugins' screen in WordPress
-
+1. Upload the plugin files to the `/wp-content/plugins/wp-smart-content-scheduler` directory, or install via the WordPress plugins screen.
+2. Activate the plugin through the 'Plugins' screen in WordPress.
+3. Use the "Smart Content Scheduler" block in the Gutenberg editor to set visibility options.
 
 == Frequently Asked Questions ==
 
-= A question that someone might have =
+= Can I use this plugin with custom themes? =
 
-An answer to that question.
+Yes, as long as your theme supports Gutenberg.
 
-= What about foo bar? =
+= What happens if I don't set a start or end date? =
 
-Answer to foo bar dilemma.
+If no dates are set, the content will always be visible.
 
 == Screenshots ==
 
-1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is taken from
-the /assets directory or the directory that contains the stable readme.txt (tags or trunk). Screenshots in the /assets
-directory take precedence. For example, `/assets/screenshot-1.png` would win over `/tags/4.3/screenshot-1.png`
-(or jpg, jpeg, gif).
-2. This is the second screen shot
+1. Block settings panel in the editor.
+2. Example of scheduled content rendered on the front end.
 
 == Changelog ==
 
-= 0.1.0 =
-* Release
+= 1.0.0 =
+* Initial release.
 
-== Arbitrary section ==
-
-You may provide arbitrary sections, in the same format as the ones above. This may be of use for extremely complicated
-plugins where more information needs to be conveyed that doesn't fit into the categories of "description" or
-"installation." Arbitrary sections will be shown below the built-in sections outlined above.
